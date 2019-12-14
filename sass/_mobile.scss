@@ -1,0 +1,95 @@
+// ------------ Mobile fixes ------------
+.mobnav{
+    background: rgba(94, 4, 136, 0.9);
+    box-shadow: 5px 5px 20px;
+    //margin-bottom: 5rem;
+}
+
+.navbar-brand {
+    color: $lite !important;
+    &:hover {
+        color: $wite !important;
+    }
+}
+.nav-link {
+    font-family:akrobat;
+    font-size: 1.4rem;
+    color: $lite !important;
+    &:hover {
+        color: $wite !important;
+    }
+}
+.fa-bars {
+    font-size: 1.5rem;
+}
+
+// ---------- Media Queries ------------
+
+@media(max-width:340px) {
+    html {
+        font-size: 12px;
+    }
+    body {
+        padding-top: 5rem;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:341px) and (max-width:480px) {
+    html {
+        font-size: 13px;
+    }
+    body {
+        padding-top: 5rem;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:481px) and (max-width:780px) {
+    html {
+        font-size: 14px;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.25rem;
+    }
+    .mail {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:781px) {
+    html {
+        font-size: 16px;
+    }
+    .project {
+        & img {
+            height: 300px;
+            width: 100%;
+        }
+    }
+}
